@@ -1,0 +1,50 @@
+.getSingleProduct{
+    width: 1000px;
+    height: 380px;
+    position: fixed;
+    z-index: 2;
+    top: 14%;
+    right: 14%;
+    transition: ease 2s;
+    background-color: rgb(251, 252, 248);
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.message{
+    width: 700px;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    top: 25%;
+    right: 25%;
+    background-color: rgb(247, 218, 228);
+    border-radius: 5px;
+}
+.message button{
+    float: right;
+    margin-right: 10px;
+    background-color: rgb(157, 160, 154);
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.getBook{
+    color: lawngreen;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.getBook:hover{
+    background-color: chocolate;
+    transition: 0.7s;
+}
+.getProduct input{
+    border: 1px solid black;
+    width: 240px;
+}
+
+
+

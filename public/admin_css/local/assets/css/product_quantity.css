@@ -1,0 +1,48 @@
+.produc_quantity_header{
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+    font-size: 24px;
+}
+
+.input-text.qty {
+ width: 60px;
+ height: 30px;
+ text-align: center;
+ background-color: transparent;
+ border: 1px solid #bbb6b6;
+}
+
+
+.minus,
+.plus {
+ height: 30px;
+ background-color: #ffffff;
+ border: 1px solid #bbb6b6;
+ cursor:pointer;
+}
+
+.minus {
+ padding: 1px 8px 8px;
+ border-right: 0; 
+ font-size: 18px;
+}
+
+.plus {
+ padding: 3px 8px 8px;
+ border-left: 0; 
+  font-size: 15px;
+}
+
+.minus:hover,
+.plus:hover {
+ background: #f08e8e; }
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ margin: 0; }
+ 
+.minus:focus,
+.plus:focus {
+ outline: none; }
